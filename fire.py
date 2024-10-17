@@ -1,6 +1,7 @@
-tentoone = ["10", "9", "8", "7", "6", "5", "4", "3", "2", "1", "0"]
+tentoone = 10
 
-while tentoone == 0 :
-  print("Fire!")
+while tentoone > 0 :
+  print(tentoone)
+  tentoone -=1
 
-  tentoone += 1
+print("Fire!")

@@ -1,13 +1,23 @@
-num1 = int(input("Digite o primeiro número"))
-num2 = int(input("Digite o segundo número"))
-num3 = float(input("Digite seu terceiro número"))
+opcoes = 1, 2, 3, 4
+print(opcoes)
+print("1 = Soma", "2 = Subtração", "3 = Multiplicação", "4 = Divisão")
+      
+operation = (input ("Digite sua operação de escolha"))
 
-sum = num1 + num2 + num3
-subtraction = num1 - num2 - num3
-multiplication = num1 * num2 * num3
-division = num1/num2/num3 
+if (operation == 1):
+    print("Sua opção é soma")
 
-print("Sum: ", sum)
-print("Subtraction: ", subtraction)
-print("Multiplication: ", multiplication)
-print("Division: ", division)
+def soma():
+    for x in range()
+    if x > 
+
+
+if (operation == 2):
+    print("Sua opção é subtração")
+
+if (operation == 3):
+    print("Sua opção é multiplicação")
+
+if (operation == 4):
+    print("Sua opção é divisão")
+
